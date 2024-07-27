@@ -6740,3 +6740,9 @@ label {
     max-width: 100%; 
   }
 }
+
+@media only screen and (max-width: 600px)  {
+  .eddytopemail {
+    font-size: 13px !important;
+  }
+}
