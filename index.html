@@ -53,12 +53,22 @@
 
 
   <style>
+    .info-subtitle {
+      font-size: 1rem; /* Default font size */
+      padding: 1px;
+    }
+    .info-wrapper {
+      padding-left: 10px;
+    }
+
+    /* Mobile-specific styling */
     @media (max-width: 768px) {
       .info-subtitle {
-        font-size: 0.9rem; /* Slightly smaller font on mobile */
+        font-size: 0.9rem;
+        padding: 0;
       }
       .info-wrapper {
-        padding-left: 8px; /* Less padding for mobile */
+        padding-left: 8px;
       }
     }
   </style>
@@ -144,24 +154,19 @@
                       <p class="info-subtitle" style="color: white;">+256 705029291</p>
                     </div>
                   </li>
-                  
-                    <li style="display: flex; align-items: center; justify-content: flex-start;">
-                      <span style="cursor: pointer;" class="info-icon" onclick="window.location.href='mailto:laphicmodernhomes@gmail.com';">
-                        <i class="icon icon-envelope"></i>
-                      </span>
-                      <div class="info-wrapper" style="color: white; padding-left: 10px;">
-                        <p class="info-title" style="color: white;">Send Your Query</p>
-                        <p class="info-subtitle eddytopemail" style="color: white; font-size: 1rem; padding: 0;">
-                          laphicmodernhomes@gmail.com
-                        </p>
-                      </div>
-                    
-                    
+                  <li>
+                    <span style="cursor: pointer;" class="info-icon" onclick="window.location.href='mailto:laphicmodernhomes@gmail.com';">
+                      <i class="icon icon-envelope"></i>
+                    </span>
+                    <div class="info-wrapper" style="color: white;">
+                      <p class="info-title" style="color: white;">Send Your Query</p>
+                      <p class="info-subtitle eddytopemail" style="color: white; font-size: 1rem; padding: 1px;">
+                        laphicmodernhomes@gmail.com
+                      </p>
+                    </div>
                   </li>
                 </ul>
-                
               </div>
-              
               <!-- Col End-->
             </div>
             <!-- Logo Area End-->
